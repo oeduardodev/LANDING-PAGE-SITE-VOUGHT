@@ -1,0 +1,187 @@
+/* Gerais */
+@font-face {
+  font-family: GothamBook;
+  src: url(/fonts/GothamBook.ttf);
+}
+
+body {
+  font-family: 'GothamBook', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding-top:  45px;
+}
+
+p,
+li {
+  color: #444;
+  font-size: 14px;
+}
+
+/* Barra de navegação */
+header,
+.navbar {
+  padding: 25px;
+  background-color: #093146;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 250px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #FFF;
+}
+
+.navbar-brand:hover {
+  color: #FFF;
+}
+
+#navbar-links a {
+  color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #FFF;
+}
+
+/* Slider */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 92vh;
+}
+
+.carousel-inner {
+  color: #093146;
+}
+
+#mainSlider .carousel-caption {
+  top: 35%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  background-color: #00000050;
+  padding: 25px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #004457;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #004457;
+}
+
+.carousel-indicators .active {
+  background-color: #004457;
+}
+
+/* Sobre a empresa */
+.main-title {
+  color: #004457;
+  margin: 0px 0px 65px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after {
+  content: '';
+  border-top: 2px solid gray;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42%;
+}
+
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about-list li {
+  line-height: 40px;
+}
+
+#about-list i {
+  color: #1b78aa;
+  margin-right: 15px;
+}
+
+.col-md-6 p {
+  line-height: 25px;
+  text-align: justify;
+  font-size: 13px;
+}
+
+/*detalhos*/
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+  color: #004457;
+
+}
+
+.service-box i,
+.service-box h4 {
+  transition: .5s;
+}
+
+.service-box i {
+  font-size: 50px;
+  margin-bottom:20px;
+  color:#afafaf
+}
+
+.service-box h4{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
