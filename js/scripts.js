@@ -5,16 +5,16 @@ $( document ).ready(function() {
 
   let circleA = new ProgressBar.Circle(containerA, {
 
-    color: '#65DAF9',
-    strokeWidth: 8,
-    duration: 1400,
-    from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    color: '#fff',
+    strokeWidth:10,
+    duration: 2000,
+    from: { color: '#006d8b'},
+    to: { color: '#fff'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 60);
+      var value = Math.round(circle.value() * 60565);
       circle.setText(value);
 
     }
@@ -25,16 +25,16 @@ $( document ).ready(function() {
 
   let circleB = new ProgressBar.Circle(containerB, {
 
-    color: '#65DAF9',
-    strokeWidth: 8,
-    duration: 1600,
-    from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    color: '#fff',
+    strokeWidth: 10,
+    duration: 2200,
+    from: { color: '#006d8b'},
+    to: { color: '#fff'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 254);
+      var value = Math.round(circle.value() * 252254);
       circle.setText(value);
 
     }
@@ -45,16 +45,16 @@ $( document ).ready(function() {
 
   let circleC = new ProgressBar.Circle(containerC, {
 
-    color: '#65DAF9',
-    strokeWidth: 8,
-    duration: 1800,
-    from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    color: '#fff',
+    strokeWidth: 10,
+    duration: 2600,
+    from: { color: '#006d8b'},
+    to: { color: '#fff'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 32);
+      var value = Math.round(circle.value() * 30200);
       circle.setText(value);
 
     }
@@ -65,16 +65,16 @@ $( document ).ready(function() {
 
   let circleD = new ProgressBar.Circle(containerD, {
 
-    color: '#65DAF9',
-    strokeWidth: 8,
-    duration: 2000,
-    from: { color: '#aaa'},
-    to: { color: '#65DAF9'},
+    color: '#fff',
+    strokeWidth: 10,
+    duration: 2800,
+    from: { color: '#006d8b'},
+    to: { color: '#fff'},
 
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
 
-      var value = Math.round(circle.value() * 5423);
+      var value = Math.round(circle.value() * 542);
       circle.setText(value);
 
     }
@@ -90,7 +90,7 @@ $( document ).ready(function() {
 
     let scroll = $(window).scrollTop();
 
-    if(scroll > (dataAreaOffset.top - 500) && stop == 0) {
+    if(scroll > (dataAreaOffset.top - 400) && stop == 0) {
       circleA.animate(1.0);
       circleB.animate(1.0);
       circleC.animate(1.0);

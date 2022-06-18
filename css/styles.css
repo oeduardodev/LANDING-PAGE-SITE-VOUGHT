@@ -1,8 +1,4 @@
 /* Gerais */
-@font-face {
-  font-family: GothamBook;
-  src: url(/fonts/GothamBook.ttf);
-}
 
 body {
   font-family: 'GothamBook', sans-serif;
@@ -13,7 +9,7 @@ body {
 }
 
 .container {
-  padding-top:  45px;
+  padding-top: 45px;
 }
 
 p,
@@ -25,7 +21,7 @@ li {
 /* Barra de navegação */
 header,
 .navbar {
-  padding: 25px;
+  padding: 15px;
   background-color: #093146;
 }
 
@@ -116,9 +112,14 @@ header,
 }
 
 /* Sobre a empresa */
+
+.caixa-abaixo-slide {
+  display: flex;
+}
+
 .main-title {
   color: #004457;
-  margin: 0px 0px 65px 0px;
+  margin: 0px 12px 75px 0px;
   font-size: 40px;
   text-align: center;
 }
@@ -156,7 +157,15 @@ header,
 .col-md-6 p {
   line-height: 25px;
   text-align: justify;
-  font-size: 13px;
+  font-size: 14px;
+}
+
+.caixa-abaixo-slide {
+  margin-top: 0px;
+}
+
+#texto-abaixo-slide {
+  margin-top: 20px;
 }
 
 /*detalhos*/
@@ -165,7 +174,8 @@ header,
   margin-bottom: 50px;
 }
 
-.service-box:hover > i, .service-box:hover > h4{
+.service-box:hover>i,
+.service-box:hover>h4 {
   color: #004457;
 
 }
@@ -177,11 +187,498 @@ header,
 
 .service-box i {
   font-size: 50px;
-  margin-bottom:20px;
-  color:#afafaf
+  margin-bottom: 20px;
+  color: #afafaf
 }
 
-.service-box h4{
+.service-box h4 {
   font-size: 24px;
   margin-bottom: 20px;
+}
+
+/*dados*/
+
+.circle-box div {
+  padding: 0 40px;
+}
+
+.progessbar-text {
+  font-weight: bolder;
+  font-size: 2pt;
+}
+
+#data-area p {
+  color: #FFF;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+
+/*Equipe Os 7*/
+
+
+.card-body {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+
+/*Projetos futuros*/
+.espaco {
+  margin: 25px;
+}
+
+#apply-area {
+  height: 500px;
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+  height: 100%;
+
+}
+
+#apply-area .apply-box {
+  text-align: center;
+  padding: 70px 50px;
+  color: rgb(255, 255, 255);
+}
+
+#company-img {
+  background-image: url(/img/The-Boys-11.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+#patern-img h4 {
+  margin-top: 8%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background-color: #0931464b;
+  padding: 15px;
+
+}
+
+#pattern-img p {
+  margin-bottom: 20px;
+  color: #ffffff;
+  background-color: #0931464b;
+  padding: 15px;
+}
+
+
+/*se inscreva para receber emails*/
+#news-area {
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0cc;
+  padding: 25px;
+
+}
+
+#news-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+
+}
+
+#email-input {
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgb(104, 132, 170);
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+  margin-left: -220px;
+}
+
+#news-btn {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid rgb(104, 132, 170);
+  background-color: #004457;
+  text-transform: uppercase;
+  color: rgb(229, 236, 247);
+  width: 15%;
+  height: 40px;
+  padding: 0 30px;
+  position: absolute;
+  transition: .5s;
+
+}
+
+/* Copy */
+
+#copy-area {
+  background-color: #F1F1F1;
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color: #444;
+}
+
+#copy-area .container a:hover {
+  text-decoration: none;
+  color: #3EC1D5;
+}
+
+/*rodapé*/
+#contatos {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#contatos p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  margin-top: -20px;
+}
+
+#contact-form {
+  width: 200vw;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 175px;
+}
+
+.msg-area {
+  align-items: center;
+  align-content: center;
+  width: 50vw;
+}
+
+.msg-area .main-btn {
+  padding: 5px;
+  width: 115px;
+  height: 35px;
+  margin-left: 40vw;
+}
+
+.msg-area input {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.msg-area textarea {
+  margin-bottom: 10px;
+  width: 50vw;
+  height: 200px;
+}
+
+
+/* responsivo */
+@media(max-width: 768px) {
+  .caixa-abaixo-slide{
+    display: block;
+  }
+  
+  /* geral */
+  .container {
+    padding: 20px 0;
+  }
+
+  /* carrossel */
+  #mainSlider .carousel-inner,
+  #mainSlider .carousel-item {
+    height: auto;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 28px;
+  }
+
+  #mainSlider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: 10%;
+  }
+
+  /* about */
+
+  #about-area img {
+    margin-top: 100px;
+  }
+
+  .caixa-abaixo-slide {
+    margin-top: -100px;
+  }
+
+  #texto-abaixo-slide {
+    margin-top: 20px;
+  }
+
+  /* dados */
+  .circle-box div {
+    padding: 0 10px;
+  }
+
+  #data-area p {
+    font-size: 16px;
+  }
+
+  /* team */
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /* apply */
+  #apply-area .apply-box {
+    padding: 50px 25px;
+  }
+
+  /*se inscreva para receber emails*/
+
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #email-input {
+    width: 70%;
+  }
+
+  #call-area {
+    margin-top: 30px;
+  }
+
+  #call-area .container {
+    padding: 30px;
+  }
+
+  #call-area p,
+  #call-area #call-btn {
+    font-size: 16px;
+  }
+#news-btn{
+  font-size: 10px;
+  text-align: left;
+
+}
+
+.inscreva-se{
+  width: 300px;
+}
+
+}
+
+
+@media(max-width: 425px) {
+
+  /* slider */
+  #mainSlider {
+    margin-top: 20px;
+  }
+
+  #mainSlider .carousel-caption {
+    top: 15%;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  #mainSlider .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption .main-btn {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  /* about */
+  .main-title {
+    font-size: 30px;
+  }
+
+  #about-area img {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .caixa-abaixo-slide {
+    margin-top: 0px;
+  }
+
+  #texto-abaixo-slide {
+    margin-top: 0px;
+  }
+
+  /* data */
+  .circle-box {
+    width: 50%;
+  }
+
+  #team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  /* apply */
+  #apply-area {
+    height: auto;
+  }
+
+  #company-img {
+    display: none;
+  }
+
+  /* filter */
+  #portfolio-area .filter-btn {
+    margin-bottom: 20px;
+  }
+
+  .project-box {
+    width: 50%;
+  }
+
+  /* news */
+  #news-area .main-title {
+    font-size: 24px;
+  }
+
+  #news-area p {
+    font-size: 16px;
+  }
+
+  #email-input {
+    width: 95%;
+
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #news-btn {
+
+    width: 30%;
+    height: 40px;
+    padding: 0 30px;
+    position: absolute;
+    transition: .5s;
+    margin-left: -85px;
+  }
+
+  #call-area p,
+  #call-area #call-btn {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+  #call-area p,
+  #call-area #call-btn {
+    margin: 0;
+    width: 50%;
+  }
+
+  /* entre em contatos */
+  .contact-box {
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .msg-area {
+    align-items: center;
+    align-content: center;
+    width: 75vw;
+    margin-left: -35vw;
+  }
+
+  .main-btn {
+    padding: 5px;
+    width: 115px;
+    height: 35px;
+    margin-left: -25vw;
+  }
+
+  .msg-area textarea {
+    margin-bottom: 10px;
+    width: 75vw;
+    height: 200px;
+  }
+
+  #pattern-img .main-btn {
+    margin-left: 20px;
+    width: 115px;
+    padding: 7px;
+  }
+
+  #email-input {}
+}
+
+@media(max-width: 375px) {
+  #logo {
+    width: 200px;
+  }
+
+  .carousel-caption .main-btn {
+    margin-top: -30px;
+  }
+
+  .msg-area .main-btn {
+    padding: 5px;
+    width: 115px;
+    height: 35px;
+    margin-left: 18vw;
+  }
+
+  .msg-area {
+    align-items: center;
+    align-content: center;
+    width: 65vw;
+    margin-left: -35vw;
+  }
+
+  .msg-area textarea {
+    margin-bottom: 10px;
+    width: 65vw;
+    height: 200px;
+  }
+
+  #pattern-img .main-btn {
+    margin-left: 20px;
+    width: 115px;
+    padding: 7px;
+  }
+
+  .caixa-abaixo-slide {
+    margin-top: 0px;
+  }
+
+  #texto-abaixo-slide {
+    margin-top: 0px;
+  }
 }
