@@ -10,7 +10,7 @@
 |HTML5, CSS3, Bootstrap e JavaScript| 
 
  # ACESSE EM:
-https://app.netlify.com/sites/candid-quokka-db086c/overview
+https://vought.netlify.app
 
- # ACESSE EM:
+ # MAIS INFORMAÇÕES:
  Qualquer dúvida basta me contactar no linkedin:https://www.linkedin.com/in/eduardo-linkdin/
